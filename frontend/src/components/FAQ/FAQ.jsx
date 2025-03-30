@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Plus, Minus } from "lucide-react";
-import "../FAQ/faq.css"
+import "../FAQ/faq.css";
 
 const FAQs = () => {
   const [openIndex, setOpenIndex] = useState(null);
@@ -11,35 +11,40 @@ const FAQs = () => {
 
   const faqsData = [
     {
-      question: "What is the User Dashboard?",
-      answer: "The User Dashboard allows users to give feedback, send messages to businesses, access insights from data, and engage in gamified feedback mechanisms."
+      question: "How does your C-section probability detection work?",
+      answer: "Our tool analyzes medical history, pregnancy progress, and risk factors using AI to estimate the likelihood of a C-section vs. normal delivery, helping reduce unnecessary procedures."
     },
     {
-      question: "How does the Business Dashboard help companies?",
-      answer: "The Business Dashboard enables businesses to receive feedback, gain statistical insights from user data, communicate with users, and access an exclusive chatbot."
+      question: "What support do you offer for pre-pregnancy planning?",
+      answer: "We provide nutrition guides, fertility tracking, mental health resources, and expert consultations to prepare your body and mind for a healthy pregnancy."
     },
     {
-      question: "What features are included in the Community Interface?",
-      answer: "The Community Interface includes fake review detection, thread replies, anonymous feedback, Reddit-like tags, and a safe space for brand-consumer connectivity."
+      question: "Do you offer personalized care during pregnancy?",
+      answer: "Yes! Get tailored advice for each trimester, including exercise plans, symptom management, and 24/7 access to a support community."
     },
     {
-      question: "Is feedback gamified?",
-      answer: "Yes! Users can participate in a gamified feedback system where they earn rewards in return for their insights."
+      question: "Can you help with postpartum recovery?",
+      answer: "Absolutely. Our platform offers postpartum care plans, mental health support, breastfeeding tips, and pelvic floor therapy resources."
     },
     {
-      question: "Can businesses reply to user queries?",
-      answer: "Yes, businesses can reply to user queries through the platform, fostering better brand-consumer interactions."
+      question: "Is this service suitable for elderly pregnancy support?",
+      answer: "Yes, we specialize in guidance for advanced maternal age pregnancies, including risk assessments and specialized care plans."
     },
     {
-      question: "Does the platform support chatbot interactions?",
-      answer: "Yes! Both users and businesses have access to chatbot functionalities to enhance their experience and engagement."
+      question: "How accurate is your C-section prediction tool?",
+      answer: "While not a substitute for medical advice, our tool uses clinically validated data to provide an 85%+ accuracy rate based on current research."
+    },
+    {
+      question: "Do you connect users with healthcare providers?",
+      answer: "We partner with OB-GYNs, midwives, and specialists for referrals and second opinions when needed."
     }
-];
-
+  ];
 
   return (
     <div className="faq">
-      <div className="faq-head">Frequently <span>Asked</span> Questions</div>
+      <div className="faq-head">
+        Your <span>Pregnancy Support</span> Questions
+      </div>
       <div className="faqs">
         {faqsData.map((faq, index) => (
           <div 
