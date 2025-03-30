@@ -1,0 +1,114 @@
+.elderly-section {
+    position: relative;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    color: white;
+    overflow: hidden;
+  }
+  
+  .elderly-bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../../assets/old.jpg') center/cover no-repeat;
+    z-index: -2;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.625); /* Adjust transparency here (0.5 = 50%) */
+    z-index: -1;
+  }
+  
+  .elderly-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    z-index: 1;
+    text-align: center;
+  }
+  
+  .elderly-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.3;
+  }
+  
+  .elderly-content h2 span {
+    color: #ffb6b6; /* Soft accent color */
+  }
+  
+  .elderly-description {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto 2.5rem;
+    line-height: 1.6;
+  }
+  
+  .elderly-features {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+  }
+  
+  .feature {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px);
+    padding: 1.2rem 1.8rem;
+    border-radius: 8px;
+    transition: transform 0.3s;
+  }
+  
+  .feature:hover {
+    transform: translateY(-5px);
+  }
+  
+  .feature-icon {
+    color: #ffb6b6;
+  }
+  
+  .elderly-cta {
+    background: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 1rem 2.5rem;
+    font-size: 1.1rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 4px 15px rgba(255, 107, 107, 0.4);
+  }
+  
+  .elderly-cta:hover {
+    background: #ff5252;
+    transform: translateY(-2px);
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .elderly-content h2 {
+      font-size: 2rem;
+    }
+    
+    .elderly-features {
+      gap: 1.5rem;
+    }
+    
+    .feature {
+      flex-direction: column;
+      text-align: center;
+      padding: 1.5rem;
+    }
+  }

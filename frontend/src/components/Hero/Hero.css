@@ -1,0 +1,129 @@
+.hero-container {
+    background: linear-gradient(135deg, #f8f4ff 0%, #fff0f8 100%);
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .hero-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.8rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content h1 span {
+    color: #ff6b6b;
+    font-weight: 700;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 3rem;
+  }
+  
+  .phases-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .phase-card {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s;
+  }
+  
+  .phase-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .phase-icon {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .phase-icon h3 {
+    font-size: 1.4rem;
+    color: #444;
+  }
+  
+  .services-list {
+    text-align: left;
+    padding-left: 1.2rem;
+    color: #555;
+    line-height: 1.8;
+  }
+  
+  .services-list li {
+    margin-bottom: 0.6rem;
+  }
+  
+  .global-services {
+    margin: 3rem 0;
+  }
+  
+  .global-services h3 {
+    font-size: 1.5rem;
+    color: #444;
+    margin-bottom: 1.5rem;
+  }
+  
+  .service-badges {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .service-badge {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    background: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 50px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    font-weight: 500;
+  }
+  
+  .service-icon {
+    color: #ff6b6b;
+  }
+  
+  .cta-button {
+    background: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 1rem 2.5rem;
+    font-size: 1.1rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 4px 12px rgba(255, 107, 107, 0.3);
+  }
+  
+  .cta-button:hover {
+    background: #ff5252;
+    transform: translateY(-2px);
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .hero-content h1 {
+      font-size: 2.2rem;
+    }
+    
+    .phases-grid {
+      grid-template-columns: 1fr;
+    }
+  }
