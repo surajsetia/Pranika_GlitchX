@@ -1,0 +1,91 @@
+/* Background */
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #74b9ff, #0984e3);
+    font-family: 'Poppins', sans-serif;
+    background: url(C:\Users\HP\OneDrive\Desktop\ALL\GlitchX_Plaksha\Pranika_GlitchX\frontend\src\assets\parent_doc.jpg);
+    background-repeat: none;
+    background-size: cover;
+  }
+  
+  /* Card Style */
+  .login-card {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+    animation: fadeIn 0.5s ease-in-out;
+
+    /* margin-right: 50em; */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Typography */
+  h2 {
+    color: #0984e3;
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #636e72;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Inputs */
+  input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  /* Button */
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0984e3;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #74b9ff;
+  }
+  
+  /* Signup Redirect */
+  span {
+    color: #0984e3;
+    cursor: pointer;
+  }
+  
+  span:hover {
+    text-decoration: underline;
+  }
+  
