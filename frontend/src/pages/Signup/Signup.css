@@ -1,0 +1,51 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.signupContainer {
+    background: url(C:\Users\HP\OneDrive\Desktop\ALL\GlitchX_Plaksha\Pranika_GlitchX\frontend\src\assets\parent_doc.jpg);
+    background-repeat: none;
+    background-size: cover;
+    height:100vh;
+
+    border: 0.1px solid rgba(0, 0, 0, 0);
+}
+
+.signup-container {
+    max-width: 600px;
+    margin: 150px auto;
+    background: #f9f9f9;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    
+    
+  }
+  
+  h2, h3 {
+    color: #4CAF50;
+  }
+  
+  form input, form select, form button {
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #45a049;
+  }
+  
