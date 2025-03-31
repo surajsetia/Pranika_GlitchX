@@ -17,9 +17,8 @@ function Landing() {
           <h1>Your Pregnancy Companion</h1>
           <p className="tagline">Empowering Your Journey, One Step at a Time</p>
           <p>From prenatal care to postpartum support, we’re here for you.</p>
-          <button className="cta-button">Login Now</button>
+          <Link to="/login"><button className="cta-button">Login Now</button></Link>
         </div>
-
         {/* Right side: Image */}
         <div className="image-content">
           <img 
