@@ -7,6 +7,7 @@ import Elderly from "../pages/ElderlySupport/Elderly";
 import PrePreg from "../pages/PrePreg/Pre";
 import Preg from "../pages/Preg/Preg";
 import PostPreg from "../pages/PostPreg/Post";
+import Community from "../components/PostPreg/Community";
 
 function AppRouter() {
   return (
@@ -19,6 +20,7 @@ function AppRouter() {
       <Route path="/prepregnancy-support" element={<PrePreg />} />
       <Route path="/pregnancy-support" element={<Preg />} />
       <Route path="/postpregnancy-support" element={<PostPreg />} />
+      <Route path="/community" element={<Community/>} />
     </Routes>
   );
 }
